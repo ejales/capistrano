@@ -7,8 +7,7 @@ Rails.application.configure do
   # Mailgun Config
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
-    api_key: Rails.application.secrets.MAILGUN_SECRET_API_KEY,
-    # domain: 'mailgun.org'
+    api_key: Rails.application.secrets.MAILGUN_SECRET_API_KEY
   }
 
 
