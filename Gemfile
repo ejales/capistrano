@@ -72,6 +72,7 @@ group :development, :test do
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-rvm'
+  gem 'capistrano3-unicorn'
 end
 
 group :development do
@@ -84,5 +85,6 @@ end
 
 group :production do
   gem 'mysql2'
+  gem 'unicorn'
 end
 
