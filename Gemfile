@@ -19,6 +19,9 @@ gem 'wiselinks'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'ratyrate'
+gem 'faker'
+gem 'doctor_ipsum'
+gem 'lerolero_generator'
 
 
 source 'https://rails-assets.org' do
@@ -64,10 +67,7 @@ group :development, :test do
   gem 'byebug'
   gem 'better_errors'
   gem 'rails-erd'
-  gem 'faker'
-  gem 'doctor_ipsum'
   gem 'mailcatcher'
-  gem 'lerolero_generator'
   gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-rails', '~> 1.2'
