@@ -5,6 +5,7 @@ class Member < ActiveRecord::Base
 
     # Associations
     has_many :ads
+    has_many :comments
     has_one :profile_member
     accepts_nested_attributes_for :profile_member
 
